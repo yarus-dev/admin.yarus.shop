@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router';
 import App from '@/containers/app.jsx';
 import '@/assets/global.css';
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('yarus')).render(
   <StrictMode>
     <BrowserRouter>
       <App />
